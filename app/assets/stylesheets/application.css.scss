@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 h1, h2, h3 {
     font-family: 'Sumana', serif;
@@ -23,33 +25,24 @@ h1, h2, h3 {
 
 .navbar, .home-callout {
     // Gradient by @_ighosh at http://uigradients.com/#
-    background: #BA8B02; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #BA8B02 , #181818); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF5F6D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 .navbar {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover{
+        color: white;
+        opacity: 0.75;
+    }
 }
-
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.75;
-}
-
 
 .home-callout {
     color: white;
