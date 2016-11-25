@@ -18,11 +18,10 @@
 @import 'bootstrap';
 
 h1, h2, h3 {
-    color: white;
-    font-family: 'Bungee Inline', arial;
+    font-family: 'Sumana', serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     // Gradient by @_ighosh at http://uigradients.com/#
     background: #BA8B02; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #BA8B02 , #181818); /* Chrome 10-25, Safari 5.1-6 */
@@ -31,4 +30,11 @@ body, .navbar {
 
 .navbar {
     border: none;
+}
+
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
