@@ -35,6 +35,12 @@ h1, h2, h3 {
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Sumana', serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
