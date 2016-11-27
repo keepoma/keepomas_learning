@@ -27,7 +27,7 @@ h1, h2, h3 {
     font-style: italic;
 }
 
-.navbar, .home-callout {
+.navbar, .home-callout, .about {
     // Gradient by @_ighosh at http://uigradients.com/#
     background: #FF5F6D; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
@@ -41,7 +41,6 @@ h1, h2, h3 {
 
 .navbar-brand {
     font-family: 'Sumana', serif;
-    font-weight: 800;
     font-size: 150%;
 }
 
@@ -65,9 +64,21 @@ h1, h2, h3 {
     }
 }
 
-.home-callout {
+.home-callout, .about {
     color: white;
-    margin-top: -20px;
+    margin-top: -18px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 1080px;
+}
+
+.lincoln-image {
+    width:384;
+    height:500px;
+    content:url(http://static1.squarespace.com/static/5614123de4b075fc1f93ec5a/561518cde4b01128ae1c5ccb/56151930e4b01128ae1c7583/1444223280377/lincoln.jpg?format=original);
+    border: 3px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
