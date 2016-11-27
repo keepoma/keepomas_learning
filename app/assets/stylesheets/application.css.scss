@@ -29,6 +29,7 @@ h1, h2, h3 {
 
 .navbar {
     background-color: black;
+    border: none;
 }
 
 .home-callout, .about, .contact-table {
@@ -36,11 +37,7 @@ h1, h2, h3 {
     background: #FF5F6D; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FF5F6D , #FFC371); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FF5F6D , #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-}
-
-.navbar {
-    border: none;
+    
 }
 
 .navbar-brand {
@@ -68,11 +65,18 @@ h1, h2, h3 {
     }
 }
 
-.home-callout, .about {
+.home-callout {
     color: white;
     margin-top: -18px;
     padding-top: 50px;
-    padding-bottom: 1080px;
+    padding-bottom: 400px;
+}
+
+.about {
+    color: white;
+    margin-top: -18px;
+    padding-bottom: 800px;
+    padding-top: 100px;
 }
 
 .lincoln-image {
